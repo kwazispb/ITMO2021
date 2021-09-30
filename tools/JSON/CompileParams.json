@@ -1,0 +1,12 @@
+{  "default": {
+        "--ibconnection": "/F./build/dev",
+        "--debuglogfile": "./build/compile_features_log.txt",
+        "--db-user": "Administrator",
+        "--db-pwd": "",
+        "--ordinaryapp": "0",
+        "--additional": "/DisplayAllFunctions /Lru  /iTaxi /Debug -tcp",
+        "--v8version": "8.3.16",
+        "--command": "СобратьСценарии;JsonParams=$workspaceRoot/tools/JSON/SPPRparams.json;ResultFile=$workspaceRoot/build/feature_out.txt;LogFile=$workspaceRoot/build/feature_log.txt",
+        "--execute": "./build/СППР/СборкаТекстовСценариев.epf"
+    }
+}
